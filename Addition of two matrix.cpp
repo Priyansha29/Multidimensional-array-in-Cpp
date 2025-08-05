@@ -11,6 +11,7 @@ int main() {
     cout<<"Enter column: ";
     cin>>b;
     int m1[a][b];
+    if( a==c && b==d){
     cout<<"FOR MATRIX 1 : "<<endl;
     for(i=0;i<a;i++){
         cout<<"Elements for "<<i+1<<" row"<<endl;
@@ -24,7 +25,10 @@ int main() {
     cout<<"Enter column: ";
     cin>>d;
     int m2[c][d];
-    
+    }
+    else{
+        cout<<"Matrix addition not possible";
+    }
    
     for(i=0;i<a;i++){
         cout<<"Elements for "<<i+1<<" row"<<endl;
@@ -46,6 +50,7 @@ int main() {
         }
         cout<<endl;
     }
+    
     
     for(i=0;i<a;i++){
         for(j=0;j<b;j++){
