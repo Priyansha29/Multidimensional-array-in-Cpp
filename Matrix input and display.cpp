@@ -28,3 +28,24 @@ int main() {
     
     return 0;
 }
+
+
+output:
+
+/*Enter rows: 3
+Enter column: 3
+Elements for 1 row
+1
+2
+3
+Elements for 2 row
+4
+6
+7
+Elements for 3 row
+8
+9
+0
+1 2 3 
+4 6 7 
+8 9 0*/
