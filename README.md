@@ -1,10 +1,8 @@
 # MULTIDIMENSIONAL ARRAYS In Cpp
 
-# Aim: 
-To study and implement C++ 2D Array - Matrices.
+ **Aim:** To study and implement C++ 2D Array - Matrices.
 
-# Tools Used: 
-VS Code or Programiz Online Compiler.
+**Tools Used:** VS Code or Programiz Online Compiler.
 
 # Theory
 
