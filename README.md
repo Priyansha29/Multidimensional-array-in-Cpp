@@ -24,7 +24,7 @@ type array_name[size1][size2]...[sizeN];
 
 This program demonstrates basic 2D array operations in C++, allowing users to input matrix dimensions and elements which are then stored and displayed. Using nested loops, it shows how to traverse a 2D array row-wise, with proper formatting using tabs and newlines. The example illustrates fundamental concepts of matrix declaration, initialization, and output in C++.
 
-# --> Algorithm:
+**--> Algorithm:**
 
 1. Initialize a 3×3 integer matrix
 2. Request user to input all matrix elements
@@ -36,7 +36,7 @@ This program demonstrates basic 2D array operations in C++, allowing users to in
 
 This program demonstrates matrix addition in C++ by first accepting dimensions and elements for two matrices from the user. It checks if the matrices have compatible dimensions (same number of rows and columns) before performing element-wise addition. The result is displayed in proper matrix format, illustrating fundamental matrix operations, input validation, and 2D array manipulation in C++.
 
-# --> Algorithm:
+ **--> Algorithm:**
 
 1. Accept row and column sizes for two matrices as user input
 2. Verify matrix dimensions match for addition compatibility
@@ -50,7 +50,7 @@ This program demonstrates matrix addition in C++ by first accepting dimensions a
 
 This program demonstrates matrix multiplication in C++, where the user inputs two matrices of compatible dimensions (columns of first matrix must match rows of second matrix). The program validates dimension compatibility before performing multiplication using nested loops to calculate the dot product of rows and columns. The resulting product matrix is displayed, illustrating the fundamental matrix operation that combines row-column element pairs through multiplication and summation.
 
-# --> Algorithm:
+**--> Algorithm:**
 
 1. Accept row and column dimensions for both matrices from user
 2. Verify multiplication condition (Matrix-1 columns = Matrix-2 rows)
@@ -63,7 +63,7 @@ This program demonstrates matrix multiplication in C++, where the user inputs tw
 
 This program calculates the sum of diagonal elements (main diagonal) of a square matrix. The user first inputs the matrix dimensions and elements, which are stored in a 2D array. The program verifies if the matrix is square (rows = columns) before computing the sum by adding elements where row and column indices are equal (mat[i][i]). Finally, it displays either the diagonal sum or an error message for non-square matrices.
 
-# --> Algorithm:
+**--> Algorithm:**
 
 1. Input matrix dimensions (rows m and columns n)
 2. Declare 2D array mat[m][n] and input elements
@@ -77,7 +77,7 @@ This program calculates the sum of diagonal elements (main diagonal) of a square
 
 This program demonstrates matrix transposition in C++, where the rows and columns of a matrix are swapped. The user inputs an m×n matrix, which is then transposed into an n×m matrix by assigning each element mat[i][j] to mat_T[j][i]. The program displays both the original and transposed matrices, illustrating how matrix dimensions and element positions are inverted during transposition. This operation is fundamental in linear algebra and various computational applications.
 
-# --> Algorithm:
+**--> Algorithm:**
 
 1. Accept row and column dimensions as user input
 2. Initialize original and transposed matrix structures
@@ -90,7 +90,7 @@ This program demonstrates matrix transposition in C++, where the rows and column
 
 This program compares two square matrices for equality by first checking if their dimensions match (m1 == n1 and m2 == n2). If the dimensions are equal, it compares each corresponding element of the matrices; if all elements are identical, it sets a flag indicating the matrices are equal. The program then outputs whether the matrices are equal or not based on the flag's value, demonstrating basic matrix comparison logic in C++.
 
-# --> Algorithm:
+**--> Algorithm:**
 
 1. Input Matrix-1 Dimensions: Read rows (m1) and columns (n1).
 2. Input Matrix-1 Elements: Store values in 2D array mat1[m1][n1].
